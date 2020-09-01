@@ -1,0 +1,129 @@
+<html>
+
+<!-- Júlio César da Costa Lopes -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" type="text/css" href="css-forms.css">
+    
+
+</head>
+
+<body>
+    <h1>Criar Conta</h1>
+
+
+    <form action="http://www.atdsistemas.com.br/web/formulario/" name="form" method="POST">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <div>
+                <label for="nome">Primeiro nome:</label>
+                <input type="text" name="nome" value="" id="">
+            </div>
+            <br>
+            <div>
+                <label>Foto:</label>
+                <input type="file" name="foto">
+
+            </div>
+            <br>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" value="" id="">
+
+            </div>
+            <br>
+            <label for="sexo">Sexo:</label>
+
+            <div>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" value="Masc" id="masc">
+            </div>
+            <div>
+                <label for="fem">Feminino</label>
+                <input type="radio" name="sexo" value="Fem" id="fem">
+            </div>
+            <div>
+                <label for="ni">Não informado</label>
+                <input type="radio" name="sexo" value="Ni" id="ni">
+            </div>
+            <br>
+
+            <div>
+                <label for="formacao">Nível de formação:</label>
+                <select name="select">
+                    <option value="valor1">Nenhuma Formação</option>
+                    <option value="valor2" selected>Graduação Completa</option>
+                    <option value="valor3">Mestrado Completo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="texto">Quem sou eu?</label>
+                <br>
+                <textarea name="texto" id="" cols="120" rows="2"></textarea>
+            </div>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Redes Sociais</legend>
+
+            <div>
+                <label for="twitter">Twitter:</label>
+                <input type="text" name="twitter" value="" id="">
+            </div>
+            <br>
+
+            <div>
+                <label for="instagram">Instagram:</label>
+                <input type="text" name="instagram" value="" id="">
+            </div>
+            <br>
+
+            <div>
+                <label for="facebook">Facebook:</label>
+                <input type="text" name="facebook" value="" id="">
+            </div>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de login:</legend>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="" class="" name="email" value="" />
+            </div>
+            <br>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="" class="" name="senha" value="" />
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" name="" id="" />
+                <label for="lembrar">Lembrar-me</label>
+            </div>
+
+        </fieldset>
+        <br>
+
+        <button type="reset">Limpar campos</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
